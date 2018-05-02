@@ -98,6 +98,14 @@ li {
   font-size: 30px;
 }
 
+.banner{
+  margin-bottom: 20px;
+}
+
+.border-radius-light{
+  border-radius: 5px;
+}
+
 #sidebar > ul > li > a{
   color: white;
 }
