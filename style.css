@@ -1,0 +1,108 @@
+/* Fonts and Colors */
+body {
+  color: rgb(18,18,18);
+  background-color: rgb(220,220,220);
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 20px;
+}
+h1 {
+  color :#2980B9;
+  font-size: 20px;
+}
+h2 {
+  color: #2980B9;
+  font-size: 16px;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color: rgb(18,18,18);
+}
+a:hover {
+  color: rgb(5,5,5);
+  font-size: 16px;
+}
+
+li {
+  list-style-type: none;
+}
+
+/*Custom designs */
+.container {
+  width: 850px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin: 13px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 1px rgb(0,0,0,0.2);
+}
+
+.movies_text{
+  padding: 5px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-justify{
+  text-align: justify;
+}
+
+.image_circle{
+  border-radius: 50%;
+  border-width: 1px;
+  border-color: rgb(150,150,150);
+}
+
+.movies_row{
+  margin: 20px;
+}
+
+.btn_red{
+  color: white;
+  background-color: #2980B9;
+  padding: 7px;
+  border-radius: 7px;
+  margin: 5px 5px 0px 0px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.list-inline {
+  list-style: none;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  padding-left: 0px;
+}
+
+.img-round{
+  border-radius: 4px;
+}
+
+.img-resize{
+  width: 170px;
+  height: 100px;
+}
+
+/*Responsive*/
+
+@media (max-width: 900px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
