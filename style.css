@@ -30,7 +30,7 @@ li {
 
 /*Custom designs class*/
 .container {
-  width: 850px;
+  width: 1000px;
   margin: 0 auto;
 }
 
@@ -93,18 +93,30 @@ li {
   height: 100px;
 }
 
+.menu{
+  padding:20px;
+  font-size: 30px;
+}
+
+#sidebar > ul > li > a{
+  color: white;
+}
+
 /*Custom designs id*/
 
 #sidebar{
   position: fixed;
-  width: 300px;
+  width: 200px;
   left: 0;
   top: 0;
   bottom: 0;
+  background-color: #030639;
+  text-align: center;
 }
 
+
 #page-content{
-  margin-left: 300px;
+  margin-left: 250px;
 }
 
 /*Responsive*/
