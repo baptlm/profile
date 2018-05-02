@@ -28,7 +28,7 @@ li {
   list-style-type: none;
 }
 
-/*Custom designs */
+/*Custom designs class*/
 .container {
   width: 850px;
   margin: 0 auto;
@@ -91,6 +91,20 @@ li {
 .img-resize{
   width: 170px;
   height: 100px;
+}
+
+/*Custom designs id*/
+
+#sidebar{
+  position: fixed;
+  width: 300px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#page-content{
+  margin-left: 300px;
 }
 
 /*Responsive*/
